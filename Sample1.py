@@ -1,6 +1,5 @@
-print ("This is the project for UCDPA Data Analytics course")
+import pandas as pd
 
-a = 10
-b = 9
+football_data = pd.read_csv("football_teams.csv")
 
-print ("Sum of a + b is ", a + b)
+print(football_data.head(10))
